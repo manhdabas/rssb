@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+
+<style>
+.button {
+        margin-bottom: 10px;
+		font-size: 16px;
+		background-color: #16263b;
+		color: white;
+		cursor: pointer;
+}
+</style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>Speech to text conversion using JavaScript</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+        
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
+
+    <body>
+        <div class="mycontainer" >
+
+            <h1>Please speak and share your review.</h1>
+
+            <div class="mywebapp"> 
+                <div class="input">
+                    <textarea id="textbox" rows="8" cols="50"></textarea>
+                </div>         
+                <button id="start-btn" title="Start">Start <i class='fas fa-microphone'></i></button>
+                <p id="instructions">Press the Start button when ready!</p>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

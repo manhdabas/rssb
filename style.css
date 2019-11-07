@@ -1,0 +1,40 @@
+body {
+  color: #16263b;
+  font-size: 14px;
+}
+
+
+button:focus {
+    outline: 0;
+}
+
+.mycontainer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: -10px 100px;
+    text-align: center;
+}
+
+
+.mywebapp {
+    margin: 10px auto;
+}
+
+#textbox {
+    margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .mycontainer {
+    width: 85vw;
+    max-width: 85vw;
+  }
+
+.button {
+        margin-bottom: 10px;
+		font-size: 16px;
+		background-color: #16263b;
+		color: white;
+		cursor: pointer;
+}
+}
